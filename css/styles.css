@@ -9,10 +9,10 @@ team-background #F5F4FA
 footer-background #2F303A */
 
 :root {
-  --primary-text-color: #212121, black;
-  --secondary-text-color: #757575, gray;
-  --accent-color: #2196f3, Cyan;
-  --primary-white-color: #ffffff, white;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
 }
 
 body {
