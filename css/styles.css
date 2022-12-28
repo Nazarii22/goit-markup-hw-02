@@ -58,8 +58,12 @@ footer {
   color: #000000;
 }
 
-.logo-span {
+.logo-span-first {
   color: var(--accent-color);
+}
+
+.logo-span-secondary {
+  color: var(--primary-white-color);
 }
 
 /* Navigation */
@@ -82,7 +86,6 @@ footer {
 }
 
 .contacts-item {
-  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -102,7 +105,6 @@ footer {
 }
 
 .hero-title {
-  font-family: var(--primary-font-family);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -113,7 +115,6 @@ footer {
 }
 
 .modal-btn {
-  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -124,12 +125,14 @@ footer {
   color: var(--primary-white-color);
 }
 
-.modal-btn:focus
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #188ce8;
+}
 
 /* Features */
 
 .features-list-title {
-  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -138,7 +141,6 @@ footer {
 }
 
 .features-list-desc {
-  font-family: var(--primary-font-family);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -148,7 +150,6 @@ footer {
 /* Activity and team */
 .activity-title,
 .team-title {
-  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -162,7 +163,6 @@ footer {
 }
 
 .team-subtitle {
-  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -172,7 +172,6 @@ footer {
 }
 
 .team-desc {
-  font-family: var(--primary-font-family);
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -183,7 +182,6 @@ footer {
 /* ==========FOOTER======== */
 
 .address {
-  font-family: var(--primary-font-family);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -192,7 +190,6 @@ footer {
 }
 
 .address-item {
-  font-family: var(--primary-font-family);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -207,7 +204,6 @@ footer {
 
 /* PORTFOLIO-SITE */
 .btn-pagination {
-  font-family: var(--primary-font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -224,8 +220,11 @@ footer {
   color: var(--primary-white-color);
 }
 
+.portfolio-href {
+  text-decoration: none;
+}
+
 .portfolio-title {
-  font-family: var(--primary-font-family);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -234,7 +233,6 @@ footer {
 }
 
 .portfolio-desc {
-  font-family: var(--primary-font-family);
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
